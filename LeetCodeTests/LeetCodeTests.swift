@@ -7,6 +7,7 @@
 //
 
 import XCTest
+import Foundation
 
 class LeetCodeTests: XCTestCase {
 
@@ -19,8 +20,12 @@ class LeetCodeTests: XCTestCase {
     }
 
     func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        assert(twoSum([2, 7, 11, 15], 9) == [0, 1])
+        assert(twoSum([2, 7, 11, 15], 13) == [0, 2])
+        assert(twoSum([2, 7, 11, 15], 18) == [1, 2])
+        assert(twoSum([2, 7, 11, 15], 17) == [0, 3])
+        assert(twoSum([15, 7, 11, 2], 17) == [0, 3])
+        assert(twoSum([15, 7, 11, 2], 9) == [1, 3])
     }
 
     func testPerformanceExample() {

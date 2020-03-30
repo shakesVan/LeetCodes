@@ -4,7 +4,7 @@
 //
 //  Created by 范摇 on 2020/3/22.
 //  Copyright © 2020 范摇. All rights reserved.
-//
+// https://leetcode-cn.com/problems/add-two-numbers/
 
 import Foundation
 import XCTest
@@ -83,6 +83,6 @@ class AddTwoNumbersCase: XCTestCase {
         let solution = Solution()
         let node = solution.addTwoNumbers(node1, node2)
         print(node!)
-        assert(node!.description == "[7,0,8,4,8,0,2,2,0]")
+        assert(node!.description == "[7,0,8,4,8,0,2,2]")
     }
 }

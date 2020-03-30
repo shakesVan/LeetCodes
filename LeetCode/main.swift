@@ -1,5 +1,5 @@
 //
-//  1. 两数之和.swift
+//  main.swift
 //  LeetCode
 //
 //  Created by 范摇 on 2020/3/22.
@@ -7,3 +7,6 @@
 //
 
 import Foundation
+
+print("Hello, World!")
+

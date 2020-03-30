@@ -7,3 +7,43 @@
 //
 
 import Foundation
+
+public class ListNode {
+    public var val: Int
+    public var next: ListNode?
+    
+    public init(_ val: Int) {
+        self.val = val
+        self.next = nil
+    }
+    
+    static public func listNode(_ vals: [Int]) -> ListNode? {
+        var node: ListNode? = ListNode(0)
+        let root = node
+        for val in 0..<vals.count {
+            node?.next = ListNode(vals[val])
+            node = node?.next
+        }
+        return root?.next
+    }
+    
+}
+
+
+
+extension ListNode: CustomStringConvertible {
+    public var description: String {
+        var node: ListNode? = self
+        var printS = "["
+        while node != nil {
+            printS += "\(node!.val)"
+            node = node!.next
+            if node != nil {
+                printS += ","
+            }
+        }
+        printS += "]"
+        return printS
+        
+    }
+}
