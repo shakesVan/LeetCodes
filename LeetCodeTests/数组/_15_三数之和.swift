@@ -64,7 +64,7 @@ extension XCTestCase {
         [-1,0,1,-2,-1,-4]).count == 1)
         
         assert(threeSum([0,0,0]).count == 1)
-        print(threeSum(maxAr).count)
+//        print(threeSum(maxAr).count)
 //        assert(threeSum(maxAr).count == 16258)
     }
     

@@ -18,6 +18,35 @@ class LeetCodeTests: XCTestCase {
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
+    
+    func testAa(_ str: String) -> Bool{
+        var flag = false
+        var asc: UInt8
+        for item in str {
+            if flag {
+                asc = item.asciiValue ?? 0
+                if asc >= 65 && asc <= 90 {
+                    return false
+                }
+            }else {
+                asc = item.asciiValue ?? 0
+                if asc >= 97 && asc <= 123 {
+                    // 开始判断
+                    flag = true
+                }
+            }
+        }
+        
+        return true
+        
+    }
+    
+    func testTestAa() {
+        assert(testAa("Aaa卡是顶级复刻aa") == true)
+        assert(testAa("aAa啊放假吧aa") == false)
+        assert(testAa("aaa色符合aZ") == false)
+        assert(testAa("aa客户服务aax") == true)
+    }
 
     func testExample() {
         assert(twoSum([2, 7, 11, 15], 9) == [0, 1])
