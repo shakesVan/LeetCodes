@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		213D0A43244610E00096BCC4 /* _445_两数之和2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213D0A42244610E00096BCC4 /* _445_两数之和2.swift */; };
-		213D0A45244689FF0096BCC4 /* _206&_面试题24_反转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213D0A44244689FF0096BCC4 /* _206&_面试题24_反转链表.swift */; };
+		213D0A45244689FF0096BCC4 /* _206&24_反转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213D0A44244689FF0096BCC4 /* _206&24_反转链表.swift */; };
 		2144B73E242CE09400C476C0 /* _15_三数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2144B73D242CE09400C476C0 /* _15_三数之和.swift */; };
 		2144B740242CF29F00C476C0 /* _18_四数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2144B73F242CF29F00C476C0 /* _18_四数之和.swift */; };
 		2144B744242E3B3400C476C0 /* _914_卡牌分组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2144B743242E3B3400C476C0 /* _914_卡牌分组.swift */; };
@@ -30,7 +30,7 @@
 		217FC36D2427ACEE0031E65B /* _2_两数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217FC36C2427ACEE0031E65B /* _2_两数之和.swift */; };
 		217FC36F24283F280031E65B /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217FC36E24283F280031E65B /* LinkedList.swift */; };
 		217FC371242848730031E65B /* _876_链表的中间结点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217FC370242848730031E65B /* _876_链表的中间结点.swift */; };
-		217FC374242848B10031E65B /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217FC373242848B10031E65B /* ListNode.swift */; };
+		217FC374242848B10031E65B /* LinkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217FC373242848B10031E65B /* LinkList.swift */; };
 		217FC378242975D10031E65B /* _292_Nim游戏.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217FC377242975D10031E65B /* _292_Nim游戏.swift */; };
 		217FC37B242A22730031E65B /* _17_16_ 按摩师_198.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217FC37A242A22730031E65B /* _17_16_ 按摩师_198.swift */; };
 		217FC37D242A3A9F0031E65B /* _1389._按既定顺序创建目标数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217FC37C242A3A9F0031E65B /* _1389._按既定顺序创建目标数组.swift */; };
@@ -40,9 +40,25 @@
 		217FC386242BB3E60031E65B /* _1033_移动石子直到连续.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217FC385242BB3E60031E65B /* _1033_移动石子直到连续.swift */; };
 		21BD9AFA242F9EF800F7634F /* _820_单词的压缩编码.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BD9AF9242F9EF800F7634F /* _820_单词的压缩编码.swift */; };
 		21BD9AFC2431631C00F7634F /* _面试题62_圆圈中最后剩下的数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BD9AFB2431631C00F7634F /* _面试题62_圆圈中最后剩下的数字.swift */; };
+		21CB8D97245267A20029ED85 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CB8D96245267A20029ED85 /* Queue.swift */; };
+		21CB8D99245407590029ED85 /* _46_全排列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CB8D98245407590029ED85 /* _46_全排列.swift */; };
 		21D169C62447579000FFD0A4 /* _542_01矩阵.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D169C52447579000FFD0A4 /* _542_01矩阵.swift */; };
 		21D169C82447CB4100FFD0A4 /* _1162_地图分析.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D169C72447CB4100FFD0A4 /* _1162_地图分析.swift */; };
 		21D169CA24492C9F00FFD0A4 /* _55_跳跃游戏.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D169C924492C9F00FFD0A4 /* _55_跳跃游戏.swift */; };
+		21D169CC2449D0AB00FFD0A4 /* _1408_数组中的字符串匹配.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D169CB2449D0AB00FFD0A4 /* _1408_数组中的字符串匹配.swift */; };
+		21DB37A32449E1BA00AABAAD /* _01背包问题.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DB37A22449E1BA00AABAAD /* _01背包问题.swift */; };
+		21DB37A5244A804000AABAAD /* _1409_查询带键的排列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DB37A4244A804000AABAAD /* _1409_查询带键的排列.swift */; };
+		21DB37A7244A874A00AABAAD /* _11_盛最多水的容器.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DB37A6244A874A00AABAAD /* _11_盛最多水的容器.swift */; };
+		21DB37A9244B414600AABAAD /* _416_分割等和子集.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DB37A8244B414600AABAAD /* _416_分割等和子集.swift */; };
+		21DB37AB244BDC5000AABAAD /* _466_统计重复个数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DB37AA244BDC5000AABAAD /* _466_统计重复个数.swift */; };
+		21DB37AD244BF0D500AABAAD /* _5388_重新格式化字符串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DB37AC244BF0D500AABAAD /* _5388_重新格式化字符串.swift */; };
+		21DB37B2244BF58100AABAAD /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DB37B1244BF58100AABAAD /* Stack.swift */; };
+		21DB37B4244BF65100AABAAD /* _5390_数青蛙.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DB37B3244BF65100AABAAD /* _5390_数青蛙.swift */; };
+		21DB37B6244C285500AABAAD /* _5389_点菜展示表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DB37B5244C285500AABAAD /* _5389_点菜展示表.swift */; };
+		21DB37B9244DD9D700AABAAD /* UnionFind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DB37B8244DD9D700AABAAD /* UnionFind.swift */; };
+		21DB37BB244DEB4500AABAAD /* _200_岛屿数量.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DB37BA244DEB4500AABAAD /* _200_岛屿数量.swift */; };
+		21DB37BD244F4A2800AABAAD /* _1248_统计「优美子数组」.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DB37BC244F4A2800AABAAD /* _1248_统计「优美子数组」.swift */; };
+		21DB37BF2450887100AABAAD /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DB37BE2450887100AABAAD /* Tree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -59,7 +75,7 @@
 
 /* Begin PBXFileReference section */
 		213D0A42244610E00096BCC4 /* _445_两数之和2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_445_两数之和2.swift"; sourceTree = "<group>"; };
-		213D0A44244689FF0096BCC4 /* _206&_面试题24_反转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_206&_面试题24_反转链表.swift"; sourceTree = "<group>"; };
+		213D0A44244689FF0096BCC4 /* _206&24_反转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_206&24_反转链表.swift"; sourceTree = "<group>"; };
 		2144B73D242CE09400C476C0 /* _15_三数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_15_三数之和.swift"; sourceTree = "<group>"; };
 		2144B73F242CF29F00C476C0 /* _18_四数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_18_四数之和.swift"; sourceTree = "<group>"; };
 		2144B743242E3B3400C476C0 /* _914_卡牌分组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_914_卡牌分组.swift"; sourceTree = "<group>"; };
@@ -84,7 +100,7 @@
 		217FC36C2427ACEE0031E65B /* _2_两数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_2_两数之和.swift"; sourceTree = "<group>"; };
 		217FC36E24283F280031E65B /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		217FC370242848730031E65B /* _876_链表的中间结点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_876_链表的中间结点.swift"; sourceTree = "<group>"; };
-		217FC373242848B10031E65B /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
+		217FC373242848B10031E65B /* LinkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkList.swift; sourceTree = "<group>"; };
 		217FC377242975D10031E65B /* _292_Nim游戏.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_292_Nim游戏.swift"; sourceTree = "<group>"; };
 		217FC37A242A22730031E65B /* _17_16_ 按摩师_198.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_17_16_ 按摩师_198.swift"; sourceTree = "<group>"; };
 		217FC37C242A3A9F0031E65B /* _1389._按既定顺序创建目标数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_1389._按既定顺序创建目标数组.swift"; sourceTree = "<group>"; };
@@ -94,9 +110,25 @@
 		217FC385242BB3E60031E65B /* _1033_移动石子直到连续.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_1033_移动石子直到连续.swift"; sourceTree = "<group>"; };
 		21BD9AF9242F9EF800F7634F /* _820_单词的压缩编码.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_820_单词的压缩编码.swift"; sourceTree = "<group>"; };
 		21BD9AFB2431631C00F7634F /* _面试题62_圆圈中最后剩下的数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_面试题62_圆圈中最后剩下的数字.swift"; sourceTree = "<group>"; };
+		21CB8D96245267A20029ED85 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		21CB8D98245407590029ED85 /* _46_全排列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_46_全排列.swift"; sourceTree = "<group>"; };
 		21D169C52447579000FFD0A4 /* _542_01矩阵.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_542_01矩阵.swift"; sourceTree = "<group>"; };
 		21D169C72447CB4100FFD0A4 /* _1162_地图分析.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_1162_地图分析.swift"; sourceTree = "<group>"; };
 		21D169C924492C9F00FFD0A4 /* _55_跳跃游戏.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_55_跳跃游戏.swift"; sourceTree = "<group>"; };
+		21D169CB2449D0AB00FFD0A4 /* _1408_数组中的字符串匹配.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_1408_数组中的字符串匹配.swift"; sourceTree = "<group>"; };
+		21DB37A22449E1BA00AABAAD /* _01背包问题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_01背包问题.swift"; sourceTree = "<group>"; };
+		21DB37A4244A804000AABAAD /* _1409_查询带键的排列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_1409_查询带键的排列.swift"; sourceTree = "<group>"; };
+		21DB37A6244A874A00AABAAD /* _11_盛最多水的容器.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_11_盛最多水的容器.swift"; sourceTree = "<group>"; };
+		21DB37A8244B414600AABAAD /* _416_分割等和子集.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_416_分割等和子集.swift"; sourceTree = "<group>"; };
+		21DB37AA244BDC5000AABAAD /* _466_统计重复个数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_466_统计重复个数.swift"; sourceTree = "<group>"; };
+		21DB37AC244BF0D500AABAAD /* _5388_重新格式化字符串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_5388_重新格式化字符串.swift"; sourceTree = "<group>"; };
+		21DB37B1244BF58100AABAAD /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		21DB37B3244BF65100AABAAD /* _5390_数青蛙.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_5390_数青蛙.swift"; sourceTree = "<group>"; };
+		21DB37B5244C285500AABAAD /* _5389_点菜展示表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_5389_点菜展示表.swift"; sourceTree = "<group>"; };
+		21DB37B8244DD9D700AABAAD /* UnionFind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnionFind.swift; sourceTree = "<group>"; };
+		21DB37BA244DEB4500AABAAD /* _200_岛屿数量.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_200_岛屿数量.swift"; sourceTree = "<group>"; };
+		21DB37BC244F4A2800AABAAD /* _1248_统计「优美子数组」.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_1248_统计「优美子数组」.swift"; sourceTree = "<group>"; };
+		21DB37BE2450887100AABAAD /* Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +179,8 @@
 		2149B3C42426E45F00580003 /* LeetCodeTests */ = {
 			isa = PBXGroup;
 			children = (
+				21DB37B7244DD99900AABAAD /* 并查集 */,
+				21DB37B0244BF56F00AABAAD /* 栈&队列 */,
 				21607FB8242F8A23009960BF /* 树 */,
 				217FC382242B90870031E65B /* 数学 */,
 				217FC379242A22460031E65B /* 动态规划 */,
@@ -164,6 +198,7 @@
 			children = (
 				21607FB9242F8A56009960BF /* Trie.swift */,
 				21BD9AF9242F9EF800F7634F /* _820_单词的压缩编码.swift */,
+				21DB37BE2450887100AABAAD /* Tree.swift */,
 			);
 			path = "树";
 			sourceTree = "<group>";
@@ -171,12 +206,12 @@
 		217FC372242848930031E65B /* 链表 */ = {
 			isa = PBXGroup;
 			children = (
-				217FC373242848B10031E65B /* ListNode.swift */,
+				217FC373242848B10031E65B /* LinkList.swift */,
 				217FC36C2427ACEE0031E65B /* _2_两数之和.swift */,
 				217FC370242848730031E65B /* _876_链表的中间结点.swift */,
 				21BD9AFB2431631C00F7634F /* _面试题62_圆圈中最后剩下的数字.swift */,
 				213D0A42244610E00096BCC4 /* _445_两数之和2.swift */,
-				213D0A44244689FF0096BCC4 /* _206&_面试题24_反转链表.swift */,
+				213D0A44244689FF0096BCC4 /* _206&24_反转链表.swift */,
 			);
 			path = "链表";
 			sourceTree = "<group>";
@@ -197,6 +232,11 @@
 				21585DD7243E126D00959EA5 /* _面试题13_机器人的运动范围.swift */,
 				21585DD9243F6A6400959EA5 /* _22_括号生成.swift */,
 				21585DDB2440C16C00959EA5 /* _151_翻转字符串里的单词.swift */,
+				21D169CB2449D0AB00FFD0A4 /* _1408_数组中的字符串匹配.swift */,
+				21DB37A4244A804000AABAAD /* _1409_查询带键的排列.swift */,
+				21DB37AC244BF0D500AABAAD /* _5388_重新格式化字符串.swift */,
+				21DB37B5244C285500AABAAD /* _5389_点菜展示表.swift */,
+				21CB8D98245407590029ED85 /* _46_全排列.swift */,
 			);
 			path = "数组";
 			sourceTree = "<group>";
@@ -221,6 +261,11 @@
 				21D169C52447579000FFD0A4 /* _542_01矩阵.swift */,
 				21D169C72447CB4100FFD0A4 /* _1162_地图分析.swift */,
 				21D169C924492C9F00FFD0A4 /* _55_跳跃游戏.swift */,
+				21DB37A22449E1BA00AABAAD /* _01背包问题.swift */,
+				21DB37A6244A874A00AABAAD /* _11_盛最多水的容器.swift */,
+				21DB37A8244B414600AABAAD /* _416_分割等和子集.swift */,
+				21DB37AA244BDC5000AABAAD /* _466_统计重复个数.swift */,
+				21DB37BC244F4A2800AABAAD /* _1248_统计「优美子数组」.swift */,
 			);
 			path = "动态规划";
 			sourceTree = "<group>";
@@ -232,6 +277,25 @@
 				21585DD124377DE000959EA5 /* _8_字符串转换整数 (atoi).swift */,
 			);
 			path = "数学";
+			sourceTree = "<group>";
+		};
+		21DB37B0244BF56F00AABAAD /* 栈&队列 */ = {
+			isa = PBXGroup;
+			children = (
+				21DB37B1244BF58100AABAAD /* Stack.swift */,
+				21DB37B3244BF65100AABAAD /* _5390_数青蛙.swift */,
+				21CB8D96245267A20029ED85 /* Queue.swift */,
+			);
+			path = "栈&队列";
+			sourceTree = "<group>";
+		};
+		21DB37B7244DD99900AABAAD /* 并查集 */ = {
+			isa = PBXGroup;
+			children = (
+				21DB37B8244DD9D700AABAAD /* UnionFind.swift */,
+				21DB37BA244DEB4500AABAAD /* _200_岛屿数量.swift */,
+			);
+			path = "并查集";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,38 +398,54 @@
 			buildActionMask = 2147483647;
 			files = (
 				21585DD6243CCB2900959EA5 /* _面试题_01_07_旋转矩阵.swift in Sources */,
+				21DB37BB244DEB4500AABAAD /* _200_岛屿数量.swift in Sources */,
 				217FC37D242A3A9F0031E65B /* _1389._按既定顺序创建目标数组.swift in Sources */,
 				21D169C62447579000FFD0A4 /* _542_01矩阵.swift in Sources */,
 				2144B744242E3B3400C476C0 /* _914_卡牌分组.swift in Sources */,
+				21DB37A7244A874A00AABAAD /* _11_盛最多水的容器.swift in Sources */,
+				21DB37AD244BF0D500AABAAD /* _5388_重新格式化字符串.swift in Sources */,
 				2144B73E242CE09400C476C0 /* _15_三数之和.swift in Sources */,
+				21DB37B9244DD9D700AABAAD /* UnionFind.swift in Sources */,
 				21585DD224377DE000959EA5 /* _8_字符串转换整数 (atoi).swift in Sources */,
 				2144B740242CF29F00C476C0 /* _18_四数之和.swift in Sources */,
 				217FC36D2427ACEE0031E65B /* _2_两数之和.swift in Sources */,
 				21585E04244342E600959EA5 /* _1143_最长公共子序列.swift in Sources */,
 				21585DDA243F6A6400959EA5 /* _22_括号生成.swift in Sources */,
 				21585DD02436276700959EA5 /* _289_生命游戏.swift in Sources */,
-				217FC374242848B10031E65B /* ListNode.swift in Sources */,
+				217FC374242848B10031E65B /* LinkList.swift in Sources */,
+				21DB37B4244BF65100AABAAD /* _5390_数青蛙.swift in Sources */,
 				217FC384242B909B0031E65B /* _892_三维形体的表面积.swift in Sources */,
 				2149B3C62426E45F00580003 /* LeetCodeTests.swift in Sources */,
 				21585DD424382E9800959EA5 /* _42_接雨水.swift in Sources */,
 				217FC386242BB3E60031E65B /* _1033_移动石子直到连续.swift in Sources */,
-				213D0A45244689FF0096BCC4 /* _206&_面试题24_反转链表.swift in Sources */,
+				21DB37BF2450887100AABAAD /* Tree.swift in Sources */,
+				213D0A45244689FF0096BCC4 /* _206&24_反转链表.swift in Sources */,
 				217FC381242AF2A30031E65B /* _319_灯泡开关.swift in Sources */,
 				21607FBA242F8A56009960BF /* Trie.swift in Sources */,
+				21DB37BD244F4A2800AABAAD /* _1248_统计「优美子数组」.swift in Sources */,
+				21DB37A5244A804000AABAAD /* _1409_查询带键的排列.swift in Sources */,
+				21DB37A9244B414600AABAAD /* _416_分割等和子集.swift in Sources */,
 				21585DDC2440C16C00959EA5 /* _151_翻转字符串里的单词.swift in Sources */,
 				21D169CA24492C9F00FFD0A4 /* _55_跳跃游戏.swift in Sources */,
 				217FC37F242A3CB30031E65B /* _1390_四因数.swift in Sources */,
 				213D0A43244610E00096BCC4 /* _445_两数之和2.swift in Sources */,
 				217FC36B2426F9350031E65B /* _1_两数之和.swift in Sources */,
 				21585E062444005900959EA5 /* _62_不同路径.swift in Sources */,
+				21D169CC2449D0AB00FFD0A4 /* _1408_数组中的字符串匹配.swift in Sources */,
 				21BD9AFC2431631C00F7634F /* _面试题62_圆圈中最后剩下的数字.swift in Sources */,
+				21CB8D97245267A20029ED85 /* Queue.swift in Sources */,
+				21DB37AB244BDC5000AABAAD /* _466_统计重复个数.swift in Sources */,
+				21DB37A32449E1BA00AABAAD /* _01背包问题.swift in Sources */,
 				216E59F0242CCB77003421AF /* _1227_飞机座位分配概率.swift in Sources */,
+				21DB37B6244C285500AABAAD /* _5389_点菜展示表.swift in Sources */,
+				21CB8D99245407590029ED85 /* _46_全排列.swift in Sources */,
 				21585DD8243E126D00959EA5 /* _面试题13_机器人的运动范围.swift in Sources */,
 				216E59EE242CBACF003421AF /*  _999_车的可用捕获量.swift in Sources */,
 				217FC378242975D10031E65B /* _292_Nim游戏.swift in Sources */,
 				217FC37B242A22730031E65B /* _17_16_ 按摩师_198.swift in Sources */,
 				21BD9AFA242F9EF800F7634F /* _820_单词的压缩编码.swift in Sources */,
 				21D169C82447CB4100FFD0A4 /* _1162_地图分析.swift in Sources */,
+				21DB37B2244BF58100AABAAD /* Stack.swift in Sources */,
 				217FC371242848730031E65B /* _876_链表的中间结点.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

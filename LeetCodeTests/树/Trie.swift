@@ -8,19 +8,9 @@
 
 import Foundation
 
-public class Node<V> {
-    
-    public var children = Dictionary<Character,Node>()
-    public var word = false
-    public var value: V?
-    
-    public init() {
-        
-    }
-}
-
 
 class Trie<V> {
+    
     var size = 0
     var root: Node<V>? = Node<V>()
     
@@ -108,5 +98,17 @@ class Trie<V> {
         }
         
         return node!.word ? node : nil
+    }
+    
+
+    public class Node<V> {
+        
+        public var children = Dictionary<Character,Node>()
+        public var word = false
+        public var value: V?
+        
+        public init() {
+            
+        }
     }
 }

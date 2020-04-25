@@ -23,8 +23,70 @@ extension String {
  如果a[i] != b[j] dp(i,j) = max(dp(i-1,j),dp(i,j-1))
  */
 
-// 滚动数组3 改进
+// 1维数组
 func longestCommonSubsequence(_ text1: String, _ text2: String) -> Int {
+    
+    var rows = Array(text1)
+    var cols = Array(text2)
+    guard rows.count > 0 && rows.count > 0 else {
+        return 0
+    }
+    if cols.count > rows.count {
+        cols = Array(text1)
+        rows = Array(text2)
+    }
+    
+    
+    var dp = Array(repeating: 0, count: cols.count + 1)
+
+    var leftTop = 0
+    for row in 1...rows.count {
+        leftTop = 0
+        for col in 1...cols.count {
+            let cur = leftTop
+            leftTop = dp[col]
+            if cols[col-1] == rows[row-1] {
+                dp[col] = cur + 1
+            }else {
+                dp[col] = max(dp[col],dp[col-1])
+            }
+        }
+        print("i == \(row), dp == \(dp)")
+    }
+
+    return dp[cols.count]
+}
+
+// 1维数组
+func longestCommonSubsequence6(_ text1: String, _ text2: String) -> Int {
+    
+    let a = Array(text1)
+    let b = Array(text2)
+    guard a.count > 0 && b.count > 0 else {
+        return 0
+    }
+    var dp = Array(repeating: 0, count: b.count + 1)
+
+    var leftTop = 0
+    for i in 1...a.count {
+        leftTop = 0
+        for j in 1...b.count {
+            let cur = leftTop
+            leftTop = dp[j]
+            if a[i-1] == b[j-1] {
+                dp[j] = cur + 1
+            }else {
+                dp[j] = max(dp[j],dp[j-1])
+            }
+        }
+        print("i == \(i), dp == \(dp)")
+    }
+
+    return dp[b.count]
+}
+
+// 滚动数组3 改进
+func longestCommonSubsequence5(_ text1: String, _ text2: String) -> Int {
     
     let a = Array(text1)
     let b = Array(text2)

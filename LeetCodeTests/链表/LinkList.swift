@@ -1,5 +1,5 @@
 //
-//  ListNode.swift
+//  Node.swift
 //  LeetCodeTests
 //
 //  Created by 范摇 on 2020/3/23.
@@ -18,7 +18,8 @@ public class ListNode {
     }
     
     static public func listNode(_ vals: [Int]) -> ListNode? {
-        var node: ListNode? = ListNode(0)
+        guard vals.count > 1 else { return nil }
+        var node: ListNode? = ListNode(vals[0])
         let root = node
         for val in 0..<vals.count {
             node?.next = ListNode(vals[val])
@@ -28,8 +29,6 @@ public class ListNode {
     }
     
 }
-
-
 
 extension ListNode: CustomStringConvertible {
     public var description: String {

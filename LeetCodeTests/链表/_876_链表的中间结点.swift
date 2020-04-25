@@ -52,9 +52,9 @@ class _876_链表的中间结点Tests: XCTestCase {
         assert(n2!.description == "[4,2,4]")
         
         
-        let node3 = ListNode.listNode(a3)
-        let n3 = solution.middleNode(node3)
-        print(n3!)
-        assert(n3!.description == "[5]")
+//        let node3 = ListNode.listNode(a3)
+//        let n3 = solution.middleNode(node3)
+//        print(n3!)
+//        assert(n3!.description == "[5]")
     }
 }
