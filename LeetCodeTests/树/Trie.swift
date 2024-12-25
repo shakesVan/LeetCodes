@@ -8,7 +8,7 @@
 
 import Foundation
 
-
+/// 单词树
 class Trie<V> {
     
     var size = 0

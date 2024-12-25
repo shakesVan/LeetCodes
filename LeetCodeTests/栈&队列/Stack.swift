@@ -21,9 +21,14 @@ struct Stack<T> {
         }
     }
     
+    var isEmpty: Bool {
+        return list.count == 0
+    }
+    
     var count: Int {
         return list.count
     }
+    @discardableResult
     mutating func pop() -> T {
         return list.removeLast()
     }

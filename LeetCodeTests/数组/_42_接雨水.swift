@@ -9,6 +9,48 @@
 import Foundation
 
 func trap(_ height: [Int]) -> Int {
+    if height.count <= 2 {
+        return 0
+    }
+    
+    // 峰与峰元组
+    var indexTuples: [(begin: Int, end: Int)] = []
+    // 最高峰左侧的积水坐标元组
+    var leftMaxIndex = 0
+    for i in 0..<height.count {
+        if height[i] >= height[leftMaxIndex] {
+            if leftMaxIndex + 1 < i {
+                indexTuples.append((begin: leftMaxIndex, end: i))
+            }
+            leftMaxIndex = i
+        }
+        
+    }
+    // 最高峰左侧的积水坐标元组
+    var rightMaxIndex = height.count - 1
+    for i in (leftMaxIndex..<height.count).reversed() {
+        if height[i] > height[rightMaxIndex] {
+            if i + 1 < rightMaxIndex {
+                indexTuples.append((begin: i, end: rightMaxIndex))
+            }
+            rightMaxIndex = i
+        }
+        
+    }
+    
+    var result = 0
+    for (begin, end) in indexTuples {
+        let minMaxValue = min(height[begin], height[end])
+        for i in (begin+1)..<end {
+            result += minMaxValue - height[i]
+        }
+    }
+    return result
+}
+
+
+
+func trap1(_ height: [Int]) -> Int {
     var sort = Array(Set(height))
     sort.sort { $0 < $1 }
     guard height.count > 2 else {
@@ -74,7 +116,7 @@ func trap(_ height: [Int]) -> Int {
 
 import XCTest
 
-extension XCTestCase {
+class FYTrapCase: XCTestCase {
     func testTrap() {
         assert(trap([0,1,0,2,1,0,1,3,2,1,2,1]) == 6)
         assert(trap([0,1,0,2,1,0,1,3,2,1,3,1]) == 8)

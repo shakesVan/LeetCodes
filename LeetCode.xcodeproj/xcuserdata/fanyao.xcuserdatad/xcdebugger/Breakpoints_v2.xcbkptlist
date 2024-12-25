@@ -7,289 +7,193 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "3746E3C0-A899-4B47-BA6B-F8E767166843"
+            uuid = "611BABB6-0CC8-4BC2-8A5F-DB32EDC221EC"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "LeetCodeTests/2_&#x4e24;&#x6570;&#x4e4b;&#x548c;.swift"
+            filePath = "LeetCodeTests/&#x6570;&#x7ec4;/_205_&#x540c;&#x6784;&#x5b57;&#x7b26;&#x4e32;.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "64"
-            endingLineNumber = "64"
-            landmarkName = "addTwoNumbers1(_:_:)"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "testIsIsomorphic()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "09812EE2-E190-466E-BB91-71060F5F1FDD"
+            uuid = "F876F60B-6AE2-41E9-B3F3-252D604980DE"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "LeetCodeTests/&#x6570;&#x7ec4;/_1390_&#x56db;&#x56e0;&#x6570;.swift"
+            filePath = "LeetCodeTests/&#x6570;&#x7ec4;/_205_&#x540c;&#x6784;&#x5b57;&#x7b26;&#x4e32;.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
-            landmarkName = "getFourDivisorsSum(_:)"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "isIsomorphic(_:_:)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "03DC3FD6-FEC7-45CF-8CB8-BCB45EB9B3FA"
+            uuid = "EC18959A-D77E-4B8A-9F5F-F815B3013600"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "LeetCodeTests/&#x6570;&#x7ec4;/_1390_&#x56db;&#x56e0;&#x6570;.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
-            landmarkName = "getFourDivisorsSum(_:)"
-            landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "3DD75E18-EA92-42E6-AD37-EC7B5971AC7B"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "LeetCodeTests/&#x6570;&#x7ec4;/_15_&#x4e09;&#x6570;&#x4e4b;&#x548c;.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "threeSum(_:)"
-            landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "D128630D-87F0-447B-BF5F-5D94493DA41B"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "LeetCodeTests/&#x6570;&#x7ec4;/_15_&#x4e09;&#x6570;&#x4e4b;&#x548c;.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
-            landmarkName = "threeSum(_:)"
-            landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "62BFEC97-9E7B-4C26-B97C-0C9DBDECAEDD"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "LeetCodeTests/&#x6570;&#x7ec4;/_15_&#x4e09;&#x6570;&#x4e4b;&#x548c;.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
-            landmarkName = "threeSum(_:)"
-            landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "D12566BF-FAF8-48F0-9E53-CD8A64455AE2"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "LeetCodeTests/&#x6570;&#x7ec4;/_18_&#x56db;&#x6570;&#x4e4b;&#x548c;.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
-            landmarkName = "fourSum(_:_:)"
-            landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "D89198F0-0C64-4D4B-A375-D90D7C828029"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "LeetCodeTests/&#x6570;&#x7ec4;/_18_&#x56db;&#x6570;&#x4e4b;&#x548c;.swift"
+            filePath = "LeetCodeTests/&#x6570;&#x7ec4;/_228_&#x6c47;&#x603b;&#x533a;&#x95f4;.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "37"
             endingLineNumber = "37"
-            landmarkName = "fourSum(_:_:)"
+            landmarkName = "summaryRanges(_:)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "A0C20E55-187E-4009-B954-AAA58D12C434"
+            uuid = "5097822F-2D8E-42EF-860E-479238BECDAE"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "LeetCodeTests/&#x6570;&#x7ec4;/_18_&#x56db;&#x6570;&#x4e4b;&#x548c;.swift"
+            filePath = "LeetCodeTests/&#x52a8;&#x6001;&#x89c4;&#x5212;/_134_&#x52a0;&#x6cb9;&#x7ad9;.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "61"
-            endingLineNumber = "61"
-            landmarkName = "fourSum(_:_:)"
-            landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "7956195F-FBB9-451F-BF39-878F9E34B251"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "LeetCodeTests/&#x6570;&#x5b66;/_8_&#x5b57;&#x7b26;&#x4e32;&#x8f6c;&#x6362;&#x6574;&#x6570; (atoi).swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
-            landmarkName = "myAtoi(_:)"
-            landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "67EA2EE2-213D-4984-9185-D393ABF144C0"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "LeetCodeTests/&#x6570;&#x5b66;/_8_&#x5b57;&#x7b26;&#x4e32;&#x8f6c;&#x6362;&#x6574;&#x6570; (atoi).swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
-            landmarkName = "myAtoi(_:)"
-            landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "C92CD9F1-2205-48AB-8DA2-7FA7740CC421"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "LeetCodeTests/&#x6570;&#x5b66;/_8_&#x5b57;&#x7b26;&#x4e32;&#x8f6c;&#x6362;&#x6574;&#x6570; (atoi).swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
-            landmarkName = "myAtoi(_:)"
-            landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "71B2D71D-B773-4E10-8C1E-A0C7600CE95C"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "LeetCodeTests/&#x6570;&#x5b66;/_8_&#x5b57;&#x7b26;&#x4e32;&#x8f6c;&#x6362;&#x6574;&#x6570; (atoi).swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "61"
-            endingLineNumber = "61"
-            landmarkName = "myAtoi(_:)"
-            landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "305589BC-7E2E-4C8D-A5F0-3A357399A44C"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "LeetCodeTests/&#x94fe;&#x8868;/_445_&#x4e24;&#x6570;&#x4e4b;&#x548c;2.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "84"
-            endingLineNumber = "84"
-            landmarkName = "testAddTowNumber()"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "testCanCompleteCircuit()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "F56CB71B-8CD7-410C-8D6D-FCF968992F04"
-            shouldBeEnabled = "No"
+            uuid = "043CE299-0E6D-4B72-BAE2-F3305B445168"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "LeetCodeTests/&#x52a8;&#x6001;&#x89c4;&#x5212;/_466_&#x7edf;&#x8ba1;&#x91cd;&#x590d;&#x4e2a;&#x6570;.swift"
+            filePath = "LeetCodeTests/&#x52a8;&#x6001;&#x89c4;&#x5212;/_134_&#x52a0;&#x6cb9;&#x7ad9;.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
-            landmarkName = "getMaxRepetitions1(_:_:_:_:)"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "canCompleteCircuit(_:_:)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "842A4528-6DAD-4CBA-9BA1-A53CAB8A95AD"
+            uuid = "A5B18B23-419D-4B48-9E2C-A300B2860B62"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "LeetCodeTests/&#x6808;/_5390_&#x6570;&#x9752;&#x86d9;.swift"
+            filePath = "LeetCodeTests/&#x67e5;&#x627e;/_51_N&#x7687;&#x540e;.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "71"
-            endingLineNumber = "71"
-            landmarkName = "minNumberOfFrogs2(_:)"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "solveNQueens(_:)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "38E40ABA-7951-46CA-8388-D815D4F798B3"
+            uuid = "A9CA8ABC-3AB3-4534-951B-B416C3897586"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "LeetCodeTests/&#x6808;/_5390_&#x6570;&#x9752;&#x86d9;.swift"
+            filePath = "LeetCodeTests/&#x67e5;&#x627e;/_51_N&#x7687;&#x540e;.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67"
-            landmarkName = "minNumberOfFrogs2(_:)"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "solveNQueens(_:)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "3D9AC0FD-8C69-4A82-98C3-106808B3DA50"
+            uuid = "7B1F7C4F-99E4-4BD8-B61F-88752D8455A1"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "LeetCodeTests/&#x5e76;&#x67e5;&#x96c6;/_200_&#x5c9b;&#x5c7f;&#x6570;&#x91cf;.swift"
+            filePath = "LeetCodeTests/&#x67e5;&#x627e;/_51_N&#x7687;&#x540e;.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
-            landmarkName = "numIslands(_:)"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "solveNQueens(_:)"
             landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "80532991-EB51-45BF-8A98-6C686C5D1B63"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeetCodeTests/&#x94fe;&#x8868;.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "testPrintNode()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "80532991-EB51-45BF-8A98-6C686C5D1B63 - 86ba608abf8a826d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LeetCodeTests.FYNodeCase.testPrintNode() -&gt; ()"
+                  moduleName = "LeetCodeTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fanyao/Documents/study/%E9%A1%B9%E7%9B%AE/leecode/swift/LeetCodes/LeetCodeTests/%E9%93%BE%E8%A1%A8.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "872">
+               </Location>
+               <Location
+                  uuid = "80532991-EB51-45BF-8A98-6C686C5D1B63 - 86ba608abf8a826d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LeetCodeTests.FYNodeCase.testPrintNode() -&gt; ()"
+                  moduleName = "LeetCodeTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fanyao/Documents/study/%E9%A1%B9%E7%9B%AE/leecode/swift/LeetCodes/LeetCodeTests/%E9%93%BE%E8%A1%A8.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "820">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "61C512F1-D9B4-428F-8DEB-51A50DD35492"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeetCodeTests/&#x94fe;&#x8868;.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "test2(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

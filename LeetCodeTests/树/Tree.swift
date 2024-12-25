@@ -8,6 +8,8 @@
 
 import Foundation
 
+
+/// 二叉树
 public class TreeNode {
     public var val: Int
     public var left: TreeNode?
@@ -17,9 +19,77 @@ public class TreeNode {
         self.left = nil
         self.right = nil
     }
+    
+    public convenience init?(_ val: Int?) {
+        guard let val = val else {  return nil }
+        self.init(val)
+    }
+    
+    public static func treeNode(_ vals: [Int?]) -> TreeNode? {
+        guard vals.count > 0, vals.first != nil else { return nil }
+        let nodes = vals.map { TreeNode($0) }
+        for i in (1..<nodes.count).reversed() {
+            let node = nodes[i]
+            let parent = nodes[(i - 1) >> 1]
+            if i & 1 == 1 {
+                parent?.left = node
+            }else {
+                parent?.right = node
+            }
+            
+        }
+        return nodes[0]
+    }
+    
+    var describing: String {
+        var leftStr = "nil"
+        if left != nil {
+            leftStr = String(left!.val)
+        }
+        var rightStr = "nil"
+        if right != nil {
+            rightStr = String(right!.val)
+        }
+        return "\(val)_\(leftStr)L_\(rightStr)R"
+    }
 }
 
-func dfs(_ node: TreeNode, callback: (TreeNode) -> Void ) {
+extension TreeNode: Hashable,Equatable {
+    
+    public var hashValue: Int {
+        return val
+    }
+
+    public func hash(into hasher: inout Hasher) {
+        hasher.combine(val)
+        hasher.combine(left)
+        hasher.combine(right)
+    }
+    
+    public static func == (lhs: TreeNode, rhs: TreeNode) -> Bool {
+        // 效率过低
+        return lhs.val == rhs.val && lhs.left == rhs.left && lhs.right == rhs.right
+    }
+    
+}
+
+extension Optional where Wrapped: Equatable {
+    public static func isEqual(lhs: Wrapped?, rhs: Wrapped?) -> Bool {
+        switch (lhs,rhs) {
+        case (nil,nil):
+            return true
+        case (nil,_),(_, nil):
+            return false
+        default:
+            return lhs! == rhs!
+        }
+    }
+    
+}
+
+// 深度遍历
+public
+func dfs(_ node: TreeNode, callback: (TreeNode) -> Void) {
     var stack = Stack<TreeNode>()
     stack.push(node)
 
@@ -28,17 +98,20 @@ func dfs(_ node: TreeNode, callback: (TreeNode) -> Void ) {
         // 做一些事情
         node = stack.pop()
         callback(node)
-
+        
+        if let right = node.right {
+            stack.push(right)
+        }
+        
         if let left = node.left {
             stack.push(left)
         }
 
-        if let right = node.right {
-            stack.push(right)
-        }
     }
 }
 
+// 广度遍地
+public
 func bfs(_ node: TreeNode, callback: (TreeNode) -> Void ) {
     var queue = Queue<TreeNode>()
     queue.inQueue(node)
@@ -60,74 +133,36 @@ func bfs(_ node: TreeNode, callback: (TreeNode) -> Void ) {
 }
 
 
-func rightSideView(_ root: TreeNode?) -> [Int] {
-    guard let root = root else { return [] }
-    var result = Array<Int>()
-    
-    
-    var stack = Stack<TreeNode>()
-    var deepStack = Stack<Int>()
-    stack.push(root)
-    var deep = 1
-    deepStack.push(deep)
-    
-    var resultDeep = 0
-    var node = root
-    while stack.count != 0 {
-        // 做一些事情
-        node = stack.pop()
-        deep = deepStack.pop()
-        
-        if resultDeep < deep {
-            resultDeep = deep
-            result.append(node.val)
-        }
-
-        if let left = node.left {
-            stack.push(left)
-            deepStack.push(deep + 1)
-        }
-
-        if let right = node.right {
-            stack.push(right)
-            deepStack.push(deep + 1)
-        }
-        
-    }
-    
-    return result
-}
-
-func rightSideView1(_ root: TreeNode?) -> [Int] {
-    guard let root = root else { return [] }
-    var result = Array<Int>()
-    
-    var prevLevelSum = 0
-    var levelSum = 0
-    
-    bfs(root) { (node) in
-        prevLevelSum -= 1
-        if node.left != nil {
-            levelSum += 1
-        }
-        if node.right != nil {
-            levelSum += 1
-        }
-        if prevLevelSum <= 0 {
-            prevLevelSum = levelSum
-            levelSum = 0
-            result.append(node.val)
-        }
-    }
-    return result
-}
-
-
 import XCTest
 
-extension XCTestCase {
-    func testRightSideView() {
-        //[1,2,3,null,5,null,4]
-        assert(rightSideView(nil) == [])
+class TreeNodeTestCase: XCTestCase {
+    
+    func testTreeNode() {
+        
+        let tn = TreeNode.treeNode([5,1,4,nil,nil,3,6])
+//        bfs(tn!) { (node) in
+//            print(node.describing + " ")
+//        }
+        
+        dfs(tn!) { (node) in
+            print(node.describing + " ")
+        }
+        
     }
+    
+    func testForEach() {
+        print("1--- \(Date())")
+        var value = [Int]()
+        for i in 0..<1000000 {
+            value.append(Int(arc4random()%100000) + i)
+        }
+        
+        print("2--- \(Date())")
+        value.sort()
+//        print(value)
+        print("3--- \(Date())")
+        value.sort(by: >)
+        print("4--- \(Date())")
+    }
+    
 }

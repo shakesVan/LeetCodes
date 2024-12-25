@@ -10,7 +10,7 @@ import Foundation
 import XCTest
 
 
-class Solution {
+private class Solution {
     func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
         
         var node: ListNode?

@@ -19,12 +19,27 @@ import Foundation
  状态转移方程
  dp[i] = max(nums[i-1], dp[i-1]) - 1
  如果dp[i] < 0 return false
- dp[i] > 0 return true
+ dp[i] >= 0 return true
  
  */
-
+private
 func canJump(_ nums: [Int]) -> Bool {
-    
-    
-    return false
+    var dp = nums[0]
+    for i in 1..<nums.count {
+        dp = max(dp, nums[i-1]) - 1
+        if dp < 0 { return false }
+        if dp >= nums.count - i - 1 {
+            return true
+        }
+    }
+    return true
+}
+
+import XCTest
+
+extension XCTestCase {
+    func testCanJump() {
+        assert(canJump([2,3,1,1,4]) == true)
+        assert(canJump([3,2,1,0,4]) == false)
+    }
 }

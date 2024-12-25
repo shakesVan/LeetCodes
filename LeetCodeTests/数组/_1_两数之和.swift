@@ -8,7 +8,24 @@
 
 import Foundation
 
+
 public func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
+    var map = [Int:Int]()
+    let count = nums.count
+    
+    for i in 0..<count {
+        let item = nums[i]
+        if let difi = map[nums[i]],
+            difi != i {
+            // 小的放前面 difi > i ? [i, difi] : [difi, i]
+            return [difi, i]
+        }
+        map[target - item] = i
+    }
+    return [0, 0]
+}
+
+public func twoSum3(_ nums: [Int], _ target: Int) -> [Int] {
     var map = [Int:Int]()
     let count = nums.count
     

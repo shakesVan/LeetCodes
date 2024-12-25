@@ -18,6 +18,7 @@ import XCTest
  */
 
 // 刚好装满,返回-1表示未找到
+private
 func maxValueExactly(_ weights: [Int], _ values: [Int], maxWeight: Int) -> Int {
     guard maxWeight > 0 else {
         return 0;

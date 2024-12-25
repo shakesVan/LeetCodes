@@ -21,6 +21,7 @@ func rotate1(_ matrix: inout [[Int]]) {
 //    print("end matrix == \(matrix)")
 }
 
+fileprivate
 func rotate(_ matrix: inout [[Int]]) {
     
     let count_1 = matrix.count - 1
@@ -29,18 +30,14 @@ func rotate(_ matrix: inout [[Int]]) {
     for i in 0..<(matrix.count >> 1) {
         for j in 0...count_1 {
             count_1_i = count_1 - i
-            matrix[i][j] = matrix[i][j] + matrix[count_1_i][j]
-            matrix[count_1_i][j] = matrix[i][j] - matrix[count_1_i][j]
-            matrix[i][j] = matrix[i][j] - matrix[count_1_i][j]
+            (matrix[i][j], matrix[count_1_i][j]) = (matrix[count_1_i][j], matrix[i][j])
         }
     }
     
     // 对角翻转
     for i in 0...count_1 {
         for j in 0..<i {
-            matrix[i][j] = matrix[i][j] + matrix[j][i]
-            matrix[j][i] = matrix[i][j] - matrix[j][i]
-            matrix[i][j] = matrix[i][j] - matrix[j][i]
+            (matrix[i][j], matrix[j][i]) = (matrix[j][i], matrix[i][j])
         }
     }
 }

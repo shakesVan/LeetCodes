@@ -9,8 +9,69 @@
 import Foundation
 
 
-
+/// 三指针解法
+///
 func threeSum(_ nums: [Int]) -> [[Int]] {
+    guard nums.count >= 3  else { return []}
+    let arr = nums.sorted()
+    let leftPinCount = arr.count - 2
+    var centerPin = 1
+    
+    var result = Set<[Int]>()
+    for i in 0..<leftPinCount {
+        var rightPin = arr.count - 1
+        if arr[i] > 0 || arr[rightPin] < 0 {
+            return Array(result)
+        }
+        
+        let target = 0 - arr[i]
+        centerPin = i + 1
+        while centerPin < rightPin {
+            
+            let tmp = arr[centerPin] + arr[rightPin] - target
+            if tmp == 0 {
+                result.insert([arr[i], arr[centerPin], arr[rightPin]])
+                centerPin += 1
+                rightPin -= 1
+                continue
+            }
+            if tmp > 0 {
+                rightPin -= 1
+            } else {
+                centerPin += 1
+            }
+            
+        }
+    }
+    return Array(result)
+}
+
+
+func threeSum2(_ nums: [Int]) -> [[Int]] {
+    guard nums.count >= 3  else { return []}
+    let arr = nums.sorted()
+    let maxL = arr.count - 3
+    var set = Set<[Int]>()
+
+    for l in 0...maxL {
+        let target = -arr[l]
+
+        var tmpSet = Set<Int>()
+        for m in (l+1)..<arr.count {
+            let v = target - arr[m]
+            if tmpSet.contains(v){
+                set.insert([-target, arr[m], v])
+            }else {
+                tmpSet.insert(arr[m])
+            }
+        }
+        
+    }
+    return Array(set)
+}
+
+
+func threeSum1(_ nums: [Int]) -> [[Int]] {
     let count = nums.count
     guard count > 2 else { return [] }
     
@@ -56,17 +117,21 @@ func threeSum(_ nums: [Int]) -> [[Int]] {
 }
 
 import XCTest
-extension XCTestCase {
+class ThreeSumTestCase: XCTestCase {
     
     func testThreeSum() {
         assert(threeSum([-1, 0, 1, 2, -1, -4]).count == 2)
         assert(threeSum(
         [-1,0,1,-2,-1,-4]).count == 1)
-        
+
         assert(threeSum([0,0,0]).count == 1)
-//        print(threeSum(maxAr).count)
-//        assert(threeSum(maxAr).count == 16258)
+        
+        
+        assert(threeSum([1,2,-2,-1]).count == 0)
+        
     }
+    
+    
     
 }
 

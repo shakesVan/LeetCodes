@@ -54,6 +54,7 @@ func getMaxRepetitions1(_ s1: String, _ n1: Int, _ s2: String, _ n2: Int) -> Int
     return 0
 }
 
+private
 func getMaxDivisor(_ n1: Int, _ n2: Int) -> Int {
     if n2 == 0 { return n1 }
     if n1 > n2 {
